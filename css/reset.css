@@ -1,9 +1,12 @@
 body {
+  background-color: #ebddce;
   margin: 0;
 }
 
 img {
   max-width: 100%;
+  padding: 0px;
+  box-shadow: 2px 2px 2px #2b2319;
 }
 
 ul {

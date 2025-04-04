@@ -1,8 +1,29 @@
 @import url('./reset.css');
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  font-size: 2rem;
+  color: #2b2319;
+  padding: 8px 26px;
+  border: 2px solid #ddd2c5;
+  background-color: #f5f3f0;
+}
+
 .slide {
   display: flex;
-  transform: translate3d(0px, 0px, 0px) ;
+  transform: translate3d(0px, 0px, 0px);
 }
 
 .slide li {
@@ -10,9 +31,9 @@
   width: 80vw;
   max-width: 800px;
   margin: 0px 20px;
-  opacity: .8;
-  transform: scale(.8);
-  transition: .5s;
+  opacity: 0.8;
+  transform: scale(0.8);
+  transition: 0.5s;
   border-radius: 4px;
 }
 
